@@ -66,7 +66,6 @@ deploy_function() {  gcloud functions deploy helloWorld \
 --runtime nodejs20 \
 --allow-unauthenticated \
 --region $REGION \
---no-gen2 \
 --max-instances 5
 }
 
